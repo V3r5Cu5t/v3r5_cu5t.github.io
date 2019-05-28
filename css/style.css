@@ -40,7 +40,7 @@ body{
 	position:relative;
 	overflow:hidden;
 	font-family: Lora, serif;
-	background:#F0F0F0 !important;
+	background:#000000 !important;
 }
 *{
 	font-family: inherit;
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6{
 	width:10px;
 }
 ::-webkit-scrollbar-thumb{
-	background:#D0D0D0;
+	background:#000000;
 	border:solid 2px #F0F0F0;
 }
 ::-webkit-scrollbar-thumb:hover{
@@ -94,7 +94,7 @@ body.border-dark .menu-btn > .lines > span{
 	-webkit-transition:width .6s cubic-bezier(.785,.135,.15,.86);
 	-moz-transition:width .6s cubic-bezier(.785,.135,.15,.86);
 	transition:width .6s cubic-bezier(.785,.135,.15,.86);
-	overflow:hidden;
+	overfl fxow:hidden;
 }
 .menu:hover,
 .menu-btn:hover + .menu{
